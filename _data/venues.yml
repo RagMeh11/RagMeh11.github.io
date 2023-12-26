@@ -1,6 +1,51 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"MICCAI":
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MIDL":
+  color: "#00369f"
+
+"ISBI":
+  color: "#00369f"
+
+"MELBA":
+  color: "#34eb89"
+
+"TMI":
+  color: "#34eb89"
+
+"JMI":
+  color: "#34eb89"
+
+"NI":
+  color: "#34eb89"
+
+"FAIMI":
+  color: "#eb9834"
+
+"OODCV":
+  color: "#eb9834"
+
+"RCV":
+  color: "#eb9834"
+
+"UNSURE":
+  color: "#eb9834"
+
+"SASHIMI":
+  color: "#eb9834"
+
+"DART":
+  color: "#eb9834"
+
+"DLF":
+  color: "#eb9834"
+
+"BraTS-C":
+  color: "#eb9834"
+
+"Thesis":
+  color: "#eb3434"
+
+"PrePrint":
+  color: "#a31c9c"
+
