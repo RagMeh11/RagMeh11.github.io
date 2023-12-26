@@ -2,38 +2,40 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Raghav Mehta
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th March 1993
     - name: Languages
-      value: English, German
+      value: English, Gujarati, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D.
+      institution: McGill University, Montreal, Canada.
+      year: 2017 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Thesis: Integrating Bayesian Deep Learning Uncertainties in Medical Image Analysis.
+        - Advisor: <a href="http://cim.mcgill.ca/~arbel">Prof. Tal Arbel</a>.
+    - title: Master of Science (M.S.) by Research
+      institution: International Institute of Information Technology - Hyderabad, Hyderabad, India.
+      year: 2014 - 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: Population specific template construction and brain structure segmentation using deep learning methods.
+        - Advisor: <a href="http://iiit.ac.in/people/faculty/jsivaswamy/">Prof. Jayanthi Sivaswamy</a>.
+    - title: Bachelor of Engineering (B.E.)
+      institution: Gujarat Technological University (GTU), Ahmedabad, Gujarat.
+      year: 2010 - 2014
+      description:
+        - Thesis: Smart Washing Machine using Fuzzy Logic Control System.
+        - Advisor: Prof. Vithal Kamat and Prof. D.M.Patel.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist Intern
+      institution: Responsible AI Organization, Meta Inc.
+      year: July 2022 - Dec. 2022
       description:
         - Description 1.
         - Description 2.
