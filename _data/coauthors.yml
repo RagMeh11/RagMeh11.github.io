@@ -10,18 +10,19 @@
   - firstname: ["Yarin", "Y."]
     url: http://www.cs.ox.ac.uk/people/yarin.gal/website/
 
+"Hassner":
+  - firstname: ["Tal", "T."]
+    url: https://talhassner.github.io/home/
+
 "Shui":
   - firstname: ["Changjian", "C."]
     url: https://cjshui.github.io/
-
-"Arnold":
-  - firstname: ["Douglas", "Douglas L.", "D.L.", "D. L.", "DL", "D L"]
-    url: https://www.mcgill.ca/neuro/douglas-arnold-md
 
 "Tsaftaris":
   - firstname: ["Sotos", "Sotirios", "Sotos A.", "Sotirios A.", "S. A.", "S.A.", "S A", "SA"]
     url: https://www.eng.ed.ac.uk/about/people/dr-sotirios-tsaftaris
 
-"Hassner":
-  - firstname: ["Tal", "T."]
-    url: https://talhassner.github.io/home/
+"Arnold":
+  - firstname: ["Douglas", "Douglas L.", "D.L.", "D. L.", "DL", "D L"]
+    url: https://www.mcgill.ca/neuro/douglas-arnold-md
+
