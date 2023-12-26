@@ -164,6 +164,13 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.extendedreport %}
+            {% if entry.supp contains '://' -%}
+            <a href="{{ entry.extendedreport }}" class="btn btn-sm z-depth-0" role="button">Extended-Report</a>
+            {%- else -%}
+            <a href="{{ entry.extendedreport | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Extended-Report</a>
+            {%- endif %}
+          {%- endif %}
           {%- if entry.video %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}

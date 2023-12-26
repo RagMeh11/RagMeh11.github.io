@@ -8,40 +8,40 @@
   color: "#00369f"
 
 "MELBA":
-  color: "#34eb89"
+  color: "#006600"
 
 "TMI":
-  color: "#34eb89"
+  color: "#006600"
 
 "JMI":
-  color: "#34eb89"
+  color: "#006600"
 
 "NI":
-  color: "#34eb89"
+  color: "#006600
 
 "FAIMI":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "OODCV":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "RCV":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "UNSURE":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "SASHIMI":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "DART":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "DLF":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "BraTS-C":
-  color: "#eb9834"
+  color: "#cc7a00"
 
 "Thesis":
   color: "#eb3434"
