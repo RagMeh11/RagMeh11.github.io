@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Imperial College London</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Research Associate, Imperial College London.</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: raghav.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Huxley Building</p>
