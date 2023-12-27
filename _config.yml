@@ -12,7 +12,7 @@ footer_text:
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: icon4.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: raghav.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://RagMeh11.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -291,7 +291,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: type
+  group_by: year
   group_order: descending
 
 # Display different badges withs stats for your publications
