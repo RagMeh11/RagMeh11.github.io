@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as one of the top 9 reviewers at MIDL 2021. ([link](https://twitter.com/RaghavM93/status/1412728152422600704?s=20))
+Selected as one of the **top 9 reviewers** at MIDL 2021. ([link](https://twitter.com/RaghavM93/status/1412728152422600704?s=20))

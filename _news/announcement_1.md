@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Best Oral Presentation Award at Fairness of AI in Medical Imaging (FAIMI) workshop held in conjunction with MICCAI 2023 conference.
+**Best Oral Presentation Award** at FAIMI 2023 workshop held in conjunction with MICCAI 2023 conference.
 
 

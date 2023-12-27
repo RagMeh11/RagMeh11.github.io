@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Named in Honourable mention list for Best Reviewer at MIDL 2022.
+Named in Honourable mention list for **Best Reviewer** at MIDL 2022.

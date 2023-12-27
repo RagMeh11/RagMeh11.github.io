@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper early accepted (top 15%) at MICCAI 2023 conference.
+1 paper **early accepted (top 15%)** at MICCAI 2023 conference.

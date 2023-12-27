@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Defended my PhD thesis!! :sparkles: :smile:
+**Defended my PhD thesis!!** :sparkles: :smile:
