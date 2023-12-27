@@ -8,7 +8,7 @@ nav_order: 2
 ---
 <!-- _pages/publications.md -->
 
-<div>For full publication list with citations visit my google scholar profile.</div>
+<div>For full publication list with citations visit my <a href="https://scholar.google.com/citations?user=fM3bx6AAAAAJ"> google scholar </a> profile.</div>
 
 
 <head>
@@ -18,13 +18,15 @@ nav_order: 2
     <style>
         /* Define the style for the box */
         .custom-box {
-            width: 60px; /* Set the width of the box */
+            width: 70px; /* Set the width of the box */
             height: 20px; /* Set the height of the box */
             color: #ffffff; /* Set the text color */
             text-align: center; /* Center the text horizontally */
-            line-height: 100px; /* Center the text vertically within the box */
-            margin: 5px; /* Add some margin for spacing */
+            line-height: 20px; /* Center the text vertically within the box */
+            margin: 10px; /* Add some margin for spacing */
             display: inline-block; /* Set boxes to display inline */
+            font-size: 10px; /* Set the default font size */
+            font-weight: bold; /* Make the font bold */
         }
     </style>
 </head>
@@ -36,7 +38,7 @@ nav_order: 2
     </div>
 
     <!-- Create the second box with text inside -->
-    <div class="custom-box" style="background-color: #0066007;">
+    <div class="custom-box" style="background-color: #066007;">
         Journal
     </div>
 
