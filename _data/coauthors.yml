@@ -1,3 +1,7 @@
+"Glocker":
+  - firstname: ["Ben", "B."]
+    url: http://wp.doc.ic.ac.uk/bglocker/
+
 "Arbel":
   - firstname: ["Tal", "T."]
     url: http://cim.mcgill.ca/~arbel
@@ -13,10 +17,6 @@
 "Hassner":
   - firstname: ["Tal", "T."]
     url: https://talhassner.github.io/home/
-
-"Shui":
-  - firstname: ["Changjian", "C."]
-    url: https://cjshui.github.io/
 
 "Tsaftaris":
   - firstname: ["Sotos", "Sotirios", "Sotos A.", "Sotirios A.", "S. A.", "S.A.", "S A", "SA"]
