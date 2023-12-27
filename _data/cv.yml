@@ -3,10 +3,48 @@
   contents:
     - name: Full Name
       value: Raghav Mehta
-    - name: Date of Birth
-      value: 11th March 1993
-    - name: Languages
-      value: English, Gujarati, Hindi
+    - name: Contact
+      value: raghav.11393 [at] gmail.com; rmehta3 [at] ic.ac.uk; raghav [at] cim.mcgill.ca; raghav.mehta [at] research.iiit.ac.in 
+    - name: Address
+      value: Huxley Building, South Kensington Campus, London, UK, SW7 2AZ 
+
+- title: Research Area
+  type: time_table
+  contents:
+    - My research focuses on developing machine learning algorithms for medical image analysis. In particular, I have heavily focused on integrating these models on various aspect of neuroimage analysis. For further details on my research, please see the <a href="https://ragmeh11.github.io/publications/"> publications </a> page.
+    - I am also interested in various responsible and trustworthy machine learning models including uncertainty quantification, fairness, robustness, causality and their applications in medical image analysis.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Associate
+      institution: Imperial College London
+      year: Feb '24 - Current
+      description:
+        - Summary :- Working on Fairness of medical imaging foundational models and Causal inference.
+    - title: Research Scientist Intern
+      institution: Responsible AI Organization, Meta Inc.
+      year: July '22 - Dec. '22
+      description:
+        - Summary :- Worked on robustness and fairness of foundational models. Developed new learning strategies for improving robustness to spurious correlations and improving fairness.
+        - Led to two publications in ECCV 2022 and ICCV 2023 workshops.
+        - The first publication (ECCVw 2022) showed that foundational models are inherantly more robust to spurious correlations as they are trained on large datasets and learns more generatlizable features.
+        - The second publication (ICCVw 2023) showed that we can training example data points that are confusing for small models are also confusing for large models. As such we can create a new dataset consisting of such datapoints and use it to improve robustness of the large foundational models.
+    - title: Graduate Research Assistant
+      institution: McGill Univeristy
+      year: Sep. '17 - Aug. '23
+      description:
+        - Summary :- Worked on Bayesian Deep Learning techniques for medical image analysis on real world clinical neuroimaging datasets.
+        - Led to total 15 publications including 8 first-author papers.
+        - Mentored 2 master's thesis.
+    - title: Graduate Research Assistant
+      institution: IIIT-Hyderabad
+      year: Aug. '14 - July. '17
+      description:
+        - Summary :- Worked on machine learning techniques for neuroimage analysis.
+        - Led to total 5 publications including 3 first-author papers.
+        - Mentored 1 master's thesis.
+        - Worked on prestigious project on construction of Indian human brain MR atlas for young population, which was covered by various news outlets in India.
 
 - title: Education
   type: time_table
@@ -30,70 +68,45 @@
         - Thesis :- Smart Washing Machine using Fuzzy Logic Control System.
         - Advisor :- Prof. Vithal Kamat and Prof. D.M.Patel.
 
-- title: Experience
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: Research Scientist Intern
-      institution: Responsible AI Organization, Meta Inc.
-      year: July '22 - Dec. '22
+    - title: Teaching Assistant
+      institution: McGill Univeristy
+      year: Sep. '19 - Apr. '22
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked as a Teaching Assistant for size semesters (Fall 2019, Winter 2020, Fall 2020, Winter 2021, Fall 2021, Winter 2022) for the course on Introduction to Computer Vision. Delivered tutorials, designed assignments, and projects.
+        - Lecturers :- Prof. Tal Arbel and Prof. James Clark
+    - title: Teaching Assistant
+      institution: IIIT-Hyderabad
+      year: Aug. '19 - Nov. '16
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Worked as a Teaching Assistant for the course on Medical Image Processing. Delivered tutorials, designed assignments, and projects.
+        - Lecturers :- Prof. Jayanthi Sivaswamy
 
 - title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Awards.
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Best paper award nominee at MICCAI-2023 (Top 20 papers).
+        - Best oral presentation award at FAIMI workshop MICCAI-2023.
+        - Best paper award at DART workshop MICCAI-2021.
+        - Best paper award at UNSURE workshop MICCAI-2019.
+        - Honourable Mention Review Award at MIDL 2022 :- one of 23 reviewer awardees out of total 300 reviewers.
+        - Best Review Award Winner at MIDL 2021. One of 9 review awardees out of total 200 reviewers.
+    - title: Fellowship.
       items:
-        - Description 1.
-        - Description 2.
+        - Research Associate - Trustworthy AI Tools for the Prediction of Obesity Related Vascular Diseases (AI-POD)
+        - MEITA Scholarship - McGill Engineering International Doctoral Award, 2017-2020.
+        - GREAT Travel Award Graduate Research Enhancement and Travel Award 2018/19 - McGill University, to attend MICCAI-2018.
+        - GMA Travel Award Graduate Mobility Award 2018/19 - McGill University, to attend Summer School on Deep Learning And Bayesian Methods - DeepBayes 2018.
+        - Financial Aid for Research Assistantship at IIIT Hyderabad - Funded by the prestigious Department of Science and Technology, Govt. of India, under Grant SR/CSRI/194/2013(G)
+    - title: News Coverage.
+      items:
+        - Master's thesis work on First Indian Brain Atlas was featured in different Indian NEWS outlets like <a href="https://www.indiatoday.in/education-today/latest-studies/story/indians-have-smallest-brains-in-the-world-reveals-iiit-hyderabad-study-1614366-2019-10-31"> India Today </a> , <a href="https://www.thehindu.com/sci-tech/science/indian-brain-is-smaller/article29816444.ece"> The Hindu </a>, <a href="https://www.youtube.com/watch?v=UbwcDfu0sNg"> Times of India </a>, <a href="https://timesofindia.indiatimes.com/city/hyderabad/iiit-h-creates-1st-ever-indian-brain-atlas-to-help-early-disease-diagnosis/articleshow/71797734.cms"> Times of India </a>, <a href="https://www.timesnownews.com/health/article/indian-brain-smaller-in-size-iiit-hyderabad-researchers-create-first-ever-indian-brain-atlas/509130"> Times Now</a>, etc.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Hiking, Reading, Biking, etc.
