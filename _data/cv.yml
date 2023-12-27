@@ -9,7 +9,7 @@
       value: Huxley Building, South Kensington Campus, London, UK, SW7 2AZ 
 
 - title: Research Area
-  type: time_table
+  type: list
   contents:
     - My research focuses on developing machine learning algorithms for medical image analysis. In particular, I have heavily focused on integrating these models on various aspect of neuroimage analysis. For further details on my research, please see the <a href="https://ragmeh11.github.io/publications/"> publications </a> page.
     - I am also interested in various responsible and trustworthy machine learning models including uncertainty quantification, fairness, robustness, causality and their applications in medical image analysis.
@@ -28,8 +28,6 @@
       description:
         - Summary :- Worked on robustness and fairness of foundational models. Developed new learning strategies for improving robustness to spurious correlations and improving fairness.
         - Led to two publications in ECCV 2022 and ICCV 2023 workshops.
-        - The first publication (ECCVw 2022) showed that foundational models are inherantly more robust to spurious correlations as they are trained on large datasets and learns more generatlizable features.
-        - The second publication (ICCVw 2023) showed that we can training example data points that are confusing for small models are also confusing for large models. As such we can create a new dataset consisting of such datapoints and use it to improve robustness of the large foundational models.
     - title: Graduate Research Assistant
       institution: McGill Univeristy
       year: Sep. '17 - Aug. '23
