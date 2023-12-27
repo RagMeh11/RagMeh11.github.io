@@ -12,7 +12,7 @@
   type: list
   contents:
     - My research focuses on developing machine learning algorithms for medical image analysis. In particular, I have heavily focused on integrating these models on various aspect of neuroimage analysis. For further details on my research, please see the <a href="https://ragmeh11.github.io/publications/"> publications </a> page.
-    - I am also interested in various responsible and trustworthy machine learning models including uncertainty quantification, fairness, robustness, causality and their applications in medical image analysis.
+    - I am also interested in various aspects of responsible and trustworthy machine learning models including uncertainty quantification, fairness, robustness, causality and their applications in medical image analysis.
 
 - title: Research Experience
   type: time_table
