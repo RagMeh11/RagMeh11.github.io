@@ -15,20 +15,20 @@
       institution: McGill University, Montreal, Canada.
       year: 2017 - 2023
       description:
-        - Thesis: Integrating Bayesian Deep Learning Uncertainties in Medical Image Analysis.
-        - Advisor: <a href="http://cim.mcgill.ca/~arbel">Prof. Tal Arbel</a>.
+        - "Thesis: Integrating Bayesian Deep Learning Uncertainties in Medical Image Analysis."
+        - "Advisor: <a href="http://cim.mcgill.ca/~arbel">Prof. Tal Arbel</a>.""
     - title: Master of Science (M.S.) by Research
       institution: International Institute of Information Technology - Hyderabad, Hyderabad, India.
       year: 2014 - 2017
       description:
-        - Thesis: Population specific template construction and brain structure segmentation using deep learning methods.
-        - Advisor: <a href="http://iiit.ac.in/people/faculty/jsivaswamy/">Prof. Jayanthi Sivaswamy</a>.
+        - "Thesis: Population specific template construction and brain structure segmentation using deep learning methods."
+        - "Advisor: <a href="http://iiit.ac.in/people/faculty/jsivaswamy/">Prof. Jayanthi Sivaswamy</a>."
     - title: Bachelor of Engineering (B.E.)
       institution: Gujarat Technological University (GTU), Ahmedabad, Gujarat.
       year: 2010 - 2014
       description:
-        - Thesis: Smart Washing Machine using Fuzzy Logic Control System.
-        - Advisor: Prof. Vithal Kamat and Prof. D.M.Patel.
+        - "Thesis: Smart Washing Machine using Fuzzy Logic Control System."
+        - "Advisor: Prof. Vithal Kamat and Prof. D.M.Patel."
 
 - title: Experience
   type: time_table
