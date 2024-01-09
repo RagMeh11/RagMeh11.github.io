@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am Research Associate (PostDoc) at Imperial College London [(ICL)](https://www.imperial.ac.uk/) working with [Prof. Ben Glocker](http://wp.doc.ic.ac.uk/bglocker/) at [BioMedIA](https://biomedia.doc.ic.ac.uk/) group. My primary research is in the field of Machine Learning and Medical Image Analysis. I am broadly interested in responsible and trustworthy machine learning models for medical image analysis.
+I am a Research Associate (PostDoc) at Imperial College London [(ICL)](https://www.imperial.ac.uk/) working with [Prof. Ben Glocker](http://wp.doc.ic.ac.uk/bglocker/) at [BioMedIA](https://biomedia.doc.ic.ac.uk/) group. My primary research is in the field of Machine Learning and Medical Image Analysis. I am broadly interested in responsible and trustworthy machine learning models for medical image analysis.
 
 Previously, I finished my Ph.D. in Electrical & Computer Engineering at McGill University. I was supervised by [Prof. Tal Arbel](http://cim.mcgill.ca/~arbel) at Probabilistic Vision Group [(PVG)](http://cim.mcgill.ca/~pvg), Centre for Intelligent Machines [(CIM)](http://cim.mcgill.ca), McGill University.  I obtained my master's in Electronics & Communication Engineering at International Institute of Information Technology - Hyderabad [(IIIT-H)](http://iiit.ac.in). I worked under the guidence of [Prof. Jayanthi Sivaswamy](http://iiit.ac.in/people/faculty/jsivaswamy/) at Medical Image Processing [(MIP)](http://cvit.iiit.ac.in/projects/mip) group, Centre for Visual Information Technology [(CVIT)](http://cvit.iiit.ac.in), IIIT-H. 
 
