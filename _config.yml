@@ -6,7 +6,7 @@ title: Raghav Mehta # the website title (if blank, full name will be used instea
 first_name: Raghav
 middle_name: 
 last_name: Mehta
-email: rmehta3@ic.ac.uk
+email: raghav.mehta@imperial.ac.uk
 description:  # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: 
 keywords:   # add your own keywords or leave empty
@@ -85,7 +85,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: # your DBLP profile url
+dblp_url: 181/6915 # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
