@@ -4,7 +4,7 @@
     - name: Full Name
       value: Raghav Mehta
     - name: Contact
-      value: raghav.11393 [at] gmail.com; rmehta3 [at] ic.ac.uk; raghav [at] cim.mcgill.ca; raghav.mehta [at] research.iiit.ac.in 
+      value: raghav.11393 [at] gmail.com; raghav.mehta [at] imperial.ac.uk; raghav.mehta [at] mail.mcgill.ca; raghav.mehta [at] research.iiit.ac.in; raghav [at] cim.mcgill.ca 
     - name: Address
       value: Huxley Building, South Kensington Campus, London, UK, SW7 2AZ 
 
@@ -51,18 +51,21 @@
       institution: McGill University, Montreal, Canada.
       year: 2017 - 2023
       description:
+        - Area :- Electrical and Computer Engineering
         - Thesis :- Integrating Bayesian Deep Learning Uncertainties in Medical Image Analysis.
         - Advisor :- <a href="http://cim.mcgill.ca/~arbel">Prof. Tal Arbel</a>.
     - title: Master of Science (M.S.) by Research
       institution: International Institute of Information Technology - Hyderabad, Hyderabad, India.
       year: 2014 - 2017
       description:
+        - Area :- Electronics and Communication Engineering
         - Thesis :- Population specific template construction and brain structure segmentation using deep learning methods.
         - Advisor :- <a href="http://iiit.ac.in/people/faculty/jsivaswamy/">Prof. Jayanthi Sivaswamy</a>.
     - title: Bachelor of Engineering (B.E.)
       institution: Gujarat Technological University (GTU), Ahmedabad, Gujarat.
       year: 2010 - 2014
       description:
+        - Area :- Electronics Engineering
         - Thesis :- Smart Washing Machine using Fuzzy Logic Control System.
         - Advisor :- Prof. Vithal Kamat and Prof. D.M.Patel.
 
@@ -73,14 +76,18 @@
       institution: McGill Univeristy
       year: Sep. '19 - Apr. '22
       description:
-        - Worked as a Teaching Assistant for size semesters (Fall 2019, Winter 2020, Fall 2020, Winter 2021, Fall 2021, Winter 2022) for the course on Introduction to Computer Vision. Delivered tutorials, designed assignments, and projects.
+        - Course :- Fundamentals of Computer Vision
+        - Sememseters :-  Fall 2019, Winter 2020, Fall 2020, Winter 2021, Fall 2021, Winter 2022
+        - Responsibility :- Delivering tutorials, designing assignments and projects, and weekly office hours.
         - Lecturers :- Prof. Tal Arbel and Prof. James Clark
     - title: Teaching Assistant
       institution: IIIT-Hyderabad
-      year: Aug. '19 - Nov. '16
+      year: Aug. '16 - Nov. '16
       description:
-        - Worked as a Teaching Assistant for the course on Medical Image Processing. Delivered tutorials, designed assignments, and projects.
-        - Lecturers :- Prof. Jayanthi Sivaswamy
+        - Course :- Medical Image Processing
+        - Sememseters :-  Fall 2016
+        - Responsibility :- Delivering tutorials, designing assignments and projects, and weekly office hours.
+        - Lecturer :- Prof. Jayanthi Sivaswamy
 
 - title: Honors and Awards
   type: nested_list
