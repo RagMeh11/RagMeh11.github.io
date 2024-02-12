@@ -9,7 +9,7 @@ profile:
   image: raghav.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Huxley Building</p>
+    <p>344-15, Huxley Building</p>
     <p>South Kensington Campus</p>
     <p>London, UK, SW7 2AZ</p>
 
