@@ -6,7 +6,7 @@ subtitle: <a href='#'>Research Associate, Imperial College London.</a>
 
 profile:
   align: right
-  image: raghav.jpg
+  image: raghav-1.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>344-15, Huxley Building</p>
