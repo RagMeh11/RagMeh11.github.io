@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Research Associate, Imperial College London.</a>
+subtitle: <a href='#'>Research Associate (PostDoc), Imperial College London.</a>
 
 profile:
   align: right
