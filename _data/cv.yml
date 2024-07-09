@@ -93,7 +93,8 @@
   type: nested_list
   contents:
     - title: Awards.
-      items: 
+      items:
+        - Outstanding Reviewer Award at MIDL 2024. One of 26 reviewer awardees out of total 300 reviewers.  
         - Best paper award nominee at MICCAI-2023 (Top 20 papers).
         - Best oral presentation award at FAIMI workshop MICCAI-2023.
         - Best paper award at DART workshop MICCAI-2021.
