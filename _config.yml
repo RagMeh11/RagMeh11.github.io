@@ -8,7 +8,7 @@ middle_name:
 last_name: Mehta
 email: raghav.mehta@imperial.ac.uk
 description:  # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text: 
+footer_text: Logo Courtesy - Studio DuB (https://www.instagram.com/_studio_dub/) 
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
