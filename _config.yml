@@ -8,7 +8,7 @@ middle_name:
 last_name: Mehta
 email: raghav.mehta@imperial.ac.uk
 description:  # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text: Logo Courtesy - Studio DuB (https://www.instagram.com/_studio_dub/)       
+footer_text:      
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -100,7 +100,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach me is using above email.
+  Logo Courtesy - Studio DuB (https://www.instagram.com/_studio_dub/). 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
