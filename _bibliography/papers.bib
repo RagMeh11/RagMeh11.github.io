@@ -125,6 +125,55 @@
 
 %%%% conferences
 
+@inproceedings{mehta2025cfseg,
+  abbr={MICCAI},
+  bibtex_show={true},
+  title={CF-Seg: Counterfactuals Meet Segmentation},
+  author={Mehta, Raghav and De Sousa Ribeiro, Fabio and Xia, Tian and Roschewitz, Melanie and Santhirasekaram, Ainkaran and Marshall, Domini and Glocker, Ben},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  abstract={Segmenting anatomical structures in medical images plays an important role in the quantitative assessment of various diseases. However, accurate segmentation becomes significantly more challenging in the presence of disease. Disease patterns can alter the appearance of surrounding healthy tissues, introduce ambiguous boundaries, or even obscure critical anatomical structures. As such, segmentation models trained on real-world datasets may struggle to provide good anatomical segmentation, leading to potential misdiagnosis. In this paper, we generate counterfactual (CF) images to simulate how the same anatomy would appear in the absence of disease without altering the underlying structure. We then use these CF images to segment structures of interest, without requiring any changes to the underlying segmentation model. Our experiments on two real-world clinical chest X-ray datasets show that the use of counterfactual images improves anatomical segmentation, thereby aiding downstream clinical decision-making.},
+  pages={},
+  year={2025},
+  month={October},
+  organization={Springer},
+  doi={},
+  html={},
+  arxiv={2307.01738},
+  selected={true},
+}
+
+@inproceedings{xia2025segcft,
+  abbr={MICCAI},
+  bibtex_show={true},
+  title={Segmentor-guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis},
+  author={Xia, Tian and Sinclair, Matthew and Schuh, Andreas and De Sousa Ribeiro, Fabio and Mehta, Raghav and Rasal, Rajat and Puyol-Enton, Esther and Gerber, Samuel and Petersen, Kersten and Schaap, Michael and Glocker, Ben},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  abstract={Counterfactual image generation is a powerful tool for augmenting training data, de-biasing datasets, and modeling disease. Current approaches rely on external classifiers or regressors to increase the effectiveness of subject-level interventions (e.g., changing the patient's age). For structure-specific interventions (e.g., changing the area of the left lung in a chest radiograph), we show that this is insufficient, and can result in undesirable global effects across the image domain. Previous work used pixel-level label maps as guidance, requiring a user to provide hypothetical segmentations which are tedious and difficult to obtain. We propose Segmentor-guided Counterfactual Fine-Tuning (Seg-CFT) which preserves the simplicity of intervening on scalar-valued, structure-specific variables while producing locally coherent and effective counterfactuals. We demonstrate the capability of generating realistic chest radiographs, and we show promising results for modeling coronary artery disease. Code will be made publicly available.},
+  pages={},
+  year={2025},
+  month={October},
+  organization={Springer},
+  doi={},
+  html={},
+  arxiv={},
+}
+
+@inproceedings{roschewitz2025shiftidenti,
+  abbr={MICCAI},
+  bibtex_show={true},
+  title={Automatic dataset shift identification to support safe deployment of medical imaging AI},
+  author={Roschewitz, Melanie and Mehta, Raghav and Jones, Charles and Glocker, Ben},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  abstract={Shifts in data distribution can substantially harm the performance of clinical AI models and lead to misdiagnosis. Hence, various methods have been developed to detect the presence of such shifts at deployment time. However, root causes of dataset shifts are varied, and the choice of shift mitigation strategies highly depends on the precise type of shift encountered at test time. As such, detecting test-time dataset shift is not sufficient: precisely identifying which type of shift has occurred is critical. In this work, we propose the first unsupervised dataset shift identification framework, effectively distinguishing between prevalence shift, covariate shift and mixed shifts. We show the effectiveness of the proposed shift identification framework across three different imaging modalities (chest radiography, digital mammography, and retinal fundus images) on five types of real-world dataset shifts, using five large publicly available datasets.},
+  pages={},
+  year={2025},
+  month={October},
+  organization={Springer},
+  doi={},
+  html={},
+  arxiv={2411.07940},
+}
+
 @inproceedings{shui2023mitigating,
   abbr={MICCAI},
   bibtex_show={true},
@@ -452,16 +501,16 @@
   month={November}
 }
 
-@techreport{Roschewitz2024automatic,
+@techreport{mehta2025unsurf,
   abbr={PrePrint},
   bibtex_show={true},
-  title={Automatic dataset shift identification to support root cause analysis of AI performance drift},
-  author={Roschewitz, Melanie and Mehta, Raghav and Jones, Charles and Glocker, Ben},
-  abstract={Shifts in data distribution can substantially harm the performance of clinical AI models. Hence, various methods have been developed to detect the presence of such shifts at deployment time. However, root causes of dataset shifts are varied, and the choice of shift mitigation strategies is highly dependent on the precise type of shift encountered at test time. As such, detecting test-time dataset shift is not sufficient: precisely identifying which type of shift has occurred is critical. In this work, we propose the first unsupervised dataset shift identification framework, effectively distinguishing between prevalence shift (caused by a change in the label distribution), covariate shift (caused by a change in input characteristics) and mixed shifts (simultaneous prevalence and covariate shifts). We discuss the importance of self-supervised encoders for detecting subtle covariate shifts and propose a novel shift detector leveraging both self-supervised encoders and task model outputs for improved shift detection. We report promising results for the proposed shift identification framework across three different imaging modalities (chest radiography, digital mammography, and retinal fundus images) on five types of real-world dataset shifts, using four large publicly available datasets. },
+  title={UNSURF: Uncertainty Quantification for Cortical Surface Reconstruction of Clinical Brain MRIs},
+  author={Mehta, Raghav and Gopinath, Karthik and Glocker, Ben and Eugenio Iglesias, Juan},
+  abstract={We propose UNSURF, a novel uncertainty measure for cortical surface reconstruction of clinical brain MRI scans of any orientation, resolution, and contrast. It relies on the discrepancy between predicted voxel-wise signed distance functions (SDFs) and the actual SDFs of the fitted surfaces. Our experiments on real clinical scans show that traditional uncertainty measures, such as voxel-wise Monte Carlo variance, are not suitable for modeling the uncertainty of surface placement. Our results demonstrate that UNSURF estimates correlate well with the ground truth errors and: (i) enable effective automated quality control of surface reconstructions at the subject-, parcel-, mesh node-level; and (ii) improve performance on a downstream Alzheimer’s disease classification task.},
   journal={arXiv preprint},
-  arxiv={2411.07940},
-  year={2024},
-  month={November}
+  arxiv={2506.00498},
+  year={2025},
+  month={June}
 }
 
 @phdthesis{mcgillthesis,
