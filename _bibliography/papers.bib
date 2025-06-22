@@ -297,7 +297,7 @@
 %%%%% workshops
 
 @inproceedings{kumar2023debiasing,
-  abbr={FAIMI},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={Debiasing Counterfactuals in the Presence of Spurious Correlations},
   author={Kumar, Amar and Fathi, Nima and Mehta, Raghav and Nichyporuk, Brennan and Falet, Jean-Pierre R and Tsaftaris, Sotirios and Arbel, Tal},
@@ -317,7 +317,7 @@
 }
 
 @inproceedings{albiero2023confusing,
-    abbr={OODCV},
+    abbr={ICCV-w},
     bibtex_show={true},
     author={Albiero, V{\'\i}tor and Mehta, Raghav and Evtimov, Ivan and Bell, Samuel and Sagun, Levent and Markosyan, Aram},
     title={Confusing Large Models by Confusing Small Models},
@@ -332,7 +332,7 @@
 
 
 @inproceedings{mehta2022you,
-    abbr={RCV},
+    abbr={ECCV-w},
     bibtex_show={true},
     title={You only need a good embeddings extractor to fix spurious correlations},
     author={Mehta, Raghav and Albiero, V{\'\i}tor and Chen, Li and Evtimov, Ivan and Glaser, Tamar and Li, Zhiheng and Hassner, Tal},
@@ -348,7 +348,7 @@
 
 
 @inproceedings{mehta2022information,
-  abbr={UNSURE},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={Information gain sampling for active learning in medical image classification},
   author={Mehta, Raghav and Shui, Changjian and Nichyporuk, Brennan and Arbel, Tal},
@@ -367,7 +367,7 @@
 
 
 @inproceedings{nichyporuk2021cohort,
-  abbr={DART},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={Cohort bias adaptation in aggregated datasets for lesion segmentation},
   author={Nichyporuk, Brennan and Cardinell, Jillian and Szeto, Justin and Mehta, Raghav and Tsaftaris, Sotirios and Arnold, Douglas L and Arbel, Tal},
@@ -387,7 +387,7 @@
 
 
 @inproceedings{mehta2019propagating,
-  abbr={UNSURE},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={Propagating uncertainty across cascaded medical imaging tasks for improved deep learning inference},
   author={Mehta, Raghav and Christinck, Thomas and Nair, Tanya and Lemaitre, Paul and Arnold, Douglas and Arbel, Tal},
@@ -407,7 +407,7 @@
 
 
 @inproceedings{kaur2019improving,
-  abbr={DART},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={Improving pathological structure segmentation via transfer learning across diseases},
   author={Kaur, Barleen and Lema{\^\i}tre, Paul and Mehta, Raghav and Sepahvand, Nazanin Mohammadi and Precup, Doina and Arnold, Douglas and Arbel, Tal},
@@ -425,7 +425,7 @@
 
 
 @inproceedings{mehta2018rs,
-  abbr={SASHIMI},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={RS-Net: Regression-segmentation 3D CNN for synthesis of full resolution missing brain MRI in the presence of tumours},
   author={Mehta, Raghav and Arbel, Tal},
@@ -444,7 +444,7 @@
 }
 
 @inproceedings{majumdar2018learn,
-  abbr={DLF},
+  abbr={MICCAI-w},
   bibtex_show={true},
   title={To learn or not to learn features for deformable registration?},
   author={Majumdar, Aabhas and Mehta, Raghav and Sivaswamy, Jayanthi},
@@ -462,7 +462,7 @@
 }
 
 @inproceedings{mehta20193d,
-  abbr={BraTS-C},
+  abbr={MICCAI-c},
   bibtex_show={true},
   title={3D U-Net for brain tumour segmentation},
   abstract={In this work, we present a 3D Convolutional Neural Network (CNN) for brain tumour segmentation from Multimodal brain MR volumes. The network is a modified version of the popular 3D U-net architecture, which takes as input multi-modal brain MR volumes, processes them at multiple scales, and generates a full resolution multi-class tumour segmentation as output. The network is modified such that there is a better gradient flow in the network, which in turn should allow the network to learn better segmentation. The network is trained end-to-end on BraTS [1,2,3,4,5] 2018 Training dataset using a weighted Categorical Cross Entropy (CCE) loss function. A curriculum on class weights is employed to address the class imbalance issue. We achieve competitive segmentation results on BraTS 2018 Testing dataset with Dice scores of 0.706, 0.871, and 0.771 for enhancing tumour, whole tumour, and tumour core, respectively.},
@@ -475,6 +475,20 @@
   html={https://link.springer.com/chapter/10.1007/978-3-030-11726-9_23},
   doi={https://doi.org/10.1007/978-3-030-11726-9_23},
   poster={BraTS_2018_poster_v2.pdf}
+}
+
+@incollection{kriz2023exploring,
+  abbr={MICCAI-c},
+  bibtex_show={true},
+  title={Exploring Compound Loss Functions for Brain Tumor Segmentation},
+  abstract={In this study, we introduce a modified 3D U-Net framework tailored for the BraTS 2023 Segmentation - Adult Glioma challenge. Alongside conventional techniques such as data augmentation, post-processing, and Monte Carlo dropout, we investigate the efficacy of compound loss functions with a primary focus on mitigating class imbalance. In particular, we investigate various combinations of cross-entropy, boundary, and dice loss functions to identify the most suitable loss for the given data distribution. By engineering the baseline U-Net model with these modifications, we have determined that the combination of dice and cross-entropy loss yields encouraging results, exemplified by lesion-wise dice scores of 0.753, 0.791, and 0.886. Our analysis justifies the use of specially designed loss functions for the underlying data distribution at hand.},
+  author={Kriz, Anita and Mehta, Raghav and Nichyporuk, Brennan and Arbel, Tal},
+  booktitle={International Challenge on Cross-Modality Domain Adaptation for Medical Image Segmentation},
+  pages={300--311},
+  year={2023},
+  publisher={Springer}
+  html={https://link.springer.com/chapter/10.1007/978-3-031-76163-8_27},
+  doi={https://doi.org/10.1007/978-3-031-76163-8_27},
 }
 
 @techreport{sivaswamy2021sub,
