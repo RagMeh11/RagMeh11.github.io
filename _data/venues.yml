@@ -1,6 +1,15 @@
 "MICCAI":
   color: "#00369f"
 
+"ICCV":
+  color: "#00369f"
+
+"ECCV":
+  color: "#00369f"
+
+"NeurIPS":
+  color: "#00369f"
+
 "MIDL":
   color: "#00369f"
 
@@ -41,6 +50,18 @@
   color: "#eb9834"
 
 "BraTS-C":
+  color: "#eb9834"
+
+"MICCAI-w":
+  color: "#eb9834"
+
+"ICCV-w":
+  color: "#eb9834"
+
+"ECCV-w":
+  color: "#eb9834"
+
+"MICCAI-c":
   color: "#eb9834"
 
 "Thesis":
