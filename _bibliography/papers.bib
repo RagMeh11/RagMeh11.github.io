@@ -549,6 +549,18 @@
   month={November}
 }
 
+@techreport{xia2025decoupled,
+  abbr={PrePrint},
+  bibtex_show={true},
+  title={Decoupled Classifier-Free Guidance for Counterfactual Diffusion Models},
+  author={Xia, Tian and Ribeiro, Fabio De Sousa and Rasal, Rajat R and Kori, Avinash and Mehta, Raghav and Glocker, Ben},
+  abstract={Counterfactual image generation aims to simulate realistic visual outcomes under specific causal interventions. Diffusion models have recently emerged as a powerful tool for this task, combining DDIM inversion with conditional generation via classifier-free guidance (CFG). However, standard CFG applies a single global weight across all conditioning variables, which can lead to poor identity preservation and spurious attribute changes—a phenomenon known as attribute amplification. To address this, we propose Decoupled Classifier-Free Guidance (DCFG), a flexible and model-agnostic framework that introduces group-wise conditioning control. DCFG builds on an attribute-split embedding strategy that disentangles semantic inputs, enabling selective guidance on user-defined attribute groups. For counterfactual generation, we partition attributes into intervened and invariant sets based on a causal graph and apply distinct guidance to each. Experiments on CelebA-HQ, MIMIC-CXR, and EMBED show that DCFG improves intervention fidelity, mitigates unintended changes, and enhances reversibility, enabling more faithful and interpretable counterfactual image generation.},
+  journal={arXiv preprint},
+  arxiv={2506.14399},
+  year={2025},
+  month={June}
+}
+
 
 @phdthesis{mcgillthesis,
   abbr={Thesis},
