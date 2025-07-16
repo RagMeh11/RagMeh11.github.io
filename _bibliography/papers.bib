@@ -145,7 +145,7 @@
   abbr={MICCAI},
   bibtex_show={true},
   title={UNSURF: Uncertainty Quantification for Cortical Surface Reconstruction of Clinical Brain MRIs},
-  author={Gopinath, Karthik and Mehta, Raghav and Glocker, Ben and Eugenio Iglesias, Juan},
+  author={Mehta, Raghav and Gopinath, Karthik and Glocker, Ben and Eugenio Iglesias, Juan},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
   abstract={We propose UNSURF, a novel uncertainty measure for cortical surface reconstruction of clinical brain MRI scans of any orientation, resolution, and contrast. It relies on the discrepancy between predicted voxel-wise signed distance functions (SDFs) and the actual SDFs of the fitted surfaces. Our experiments on real clinical scans show that traditional uncertainty measures, such as voxel-wise Monte Carlo variance, are not suitable for modeling the uncertainty of surface placement. Our results demonstrate that UNSURF estimates correlate well with the ground truth errors and: (i) enable effective automated quality control of surface reconstructions at the subject-, parcel-, mesh node-level; and (ii) improve performance on a downstream Alzheimer’s disease classification task.},
   pages={},
@@ -329,6 +329,23 @@
 
 
 %%%%% workshops
+
+@inproceedings{mittal2025cvd,
+  abbr={MICCAI-w},
+  bibtex_show={true},
+  title={Cardiovascular disease classification using radiomics and geometric features from cardiac CT},
+  author={Mittal, Ajay and Mehta, Raghav and Todd, Omar and Seeboeck, Philipp and Langs, Georg and Glocker, Ben},
+  booktitle={MICCAI Workshop on Statistical Atlases and Computational Modeling of the Heart (STACOM)},
+  abstract={Automatic detection and classification of Cardiovascular disease (CVD) from Computed Tomography (CT) images play an important part in facilitating better-informed clinical decisions. However, most of the recent deep learning based methods either directly work on raw CT data or utilize it in pair with anatomical cardiac structure segmentation by training an end-to-end classifier. As such, these approaches become much more difficult to interpret from a clinical perspective. To address this challenge, in this work, we break down the CVD classification pipeline into three components: (i) image segmentation, (ii) image registration, and (iii) downstream CVD classification. Specifically, we utilize the Atlas-ISTN framework and recent segmentation foundational models to generate anatomical structure segmentation and a normative healthy atlas. These are further utilized to extract clinically interpretable radiomic features as well as deformation field based geometric features (through atlas registration) for CVD classification. Our experiments on the publicly available ASOCA dataset show that utilizing these features leads to better CVD classification accuracy (87.50%) when compared against classification model trained directly on raw CT images (67.50%).},
+  pages={},
+  year={2025},
+  month={October},
+  organization={Springer},
+  html={},
+  doi={},
+  arxiv={2506.22226},
+}
+
 
 @inproceedings{stanley2025exploring,
   abbr={MICCAI-w},
@@ -574,18 +591,6 @@
   abstract={Counterfactual image generation aims to simulate realistic visual outcomes under specific causal interventions. Diffusion models have recently emerged as a powerful tool for this task, combining DDIM inversion with conditional generation via classifier-free guidance (CFG). However, standard CFG applies a single global weight across all conditioning variables, which can lead to poor identity preservation and spurious attribute changes—a phenomenon known as attribute amplification. To address this, we propose Decoupled Classifier-Free Guidance (DCFG), a flexible and model-agnostic framework that introduces group-wise conditioning control. DCFG builds on an attribute-split embedding strategy that disentangles semantic inputs, enabling selective guidance on user-defined attribute groups. For counterfactual generation, we partition attributes into intervened and invariant sets based on a causal graph and apply distinct guidance to each. Experiments on CelebA-HQ, MIMIC-CXR, and EMBED show that DCFG improves intervention fidelity, mitigates unintended changes, and enhances reversibility, enabling more faithful and interpretable counterfactual image generation.},
   journal={arXiv preprint},
   arxiv={2506.14399},
-  year={2025},
-  month={June}
-}
-
-@techreport{mittal2025cvd,
-  abbr={PrePrint},
-  bibtex_show={true},
-  title={Cardiovascular disease classification using radiomics and geometric features from cardiac CT},
-  author={Mittal, Ajay and Mehta, Raghav and Todd, Omar and Seeboeck, Philipp and Langs, Georg and Glocker, Ben},
-  abstract={Automatic detection and classification of Cardiovascular disease (CVD) from Computed Tomography (CT) images play an important part in facilitating better-informed clinical decisions. However, most of the recent deep learning based methods either directly work on raw CT data or utilize it in pair with anatomical cardiac structure segmentation by training an end-to-end classifier. As such, these approaches become much more difficult to interpret from a clinical perspective. To address this challenge, in this work, we break down the CVD classification pipeline into three components: (i) image segmentation, (ii) image registration, and (iii) downstream CVD classification. Specifically, we utilize the Atlas-ISTN framework and recent segmentation foundational models to generate anatomical structure segmentation and a normative healthy atlas. These are further utilized to extract clinically interpretable radiomic features as well as deformation field based geometric features (through atlas registration) for CVD classification. Our experiments on the publicly available ASOCA dataset show that utilizing these features leads to better CVD classification accuracy (87.50%) when compared against classification model trained directly on raw CT images (67.50%).},
-  journal={arXiv preprint},
-  arxiv={2506.22226},
   year={2025},
   month={June}
 }
