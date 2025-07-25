@@ -58,7 +58,7 @@ nav_order: 2
     </div>
 
     <!-- Create the second box with text inside -->
-    <div class="custom-box" style="background-color: #4d0099;">
+    <div class="custom-box" style="background-color: #0ca3c2;">
         Book
     </div>
 
